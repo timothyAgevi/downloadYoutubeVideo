@@ -22,3 +22,6 @@ def click():
 
 label1 = Label(win, text = 'Download YouTube Videos', fg = 'green', bg = 'red', font = ('Ariel', 16, 'bold'))
 label1.grid(row = 1, column = 0, padx = 25, ipady = 10)
+
+label2 = Label(win, text = 'Enter Video URL below :')
+label2.grid(row = 2, column = 0, padx = 25)

@@ -31,3 +31,7 @@ entry.grid(row = 3, column = 0, padx = 3, columnspan = 5)
 
 label3 = Label(win, text = ' ', bg = 'red')
 label3.grid(row = 4, column = 0)
+
+#Download button
+btn = ttk.Button(win, text = 'Download', command = click)
+btn.grid(row = 5, column = 0, ipadx = 5)

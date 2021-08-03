@@ -35,3 +35,5 @@ label3.grid(row = 4, column = 0)
 #Download button
 btn = ttk.Button(win, text = 'Download', command = click)
 btn.grid(row = 5, column = 0, ipadx = 5)
+
+win.mainloop()

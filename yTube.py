@@ -19,3 +19,6 @@ def click():
     video = pytube.YouTube(url)
     youtube = video.streams.first()
     youtube.download(r'C:\Users\Ugoboss\Desktop\Youtube')
+
+label1 = Label(win, text = 'Download YouTube Videos', fg = 'green', bg = 'red', font = ('Ariel', 16, 'bold'))
+label1.grid(row = 1, column = 0, padx = 25, ipady = 10)

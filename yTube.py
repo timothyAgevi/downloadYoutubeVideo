@@ -25,3 +25,9 @@ label1.grid(row = 1, column = 0, padx = 25, ipady = 10)
 
 label2 = Label(win, text = 'Enter Video URL below :')
 label2.grid(row = 2, column = 0, padx = 25)
+
+entry = Entry(win, width = 48)
+entry.grid(row = 3, column = 0, padx = 3, columnspan = 5)
+
+label3 = Label(win, text = ' ', bg = 'red')
+label3.grid(row = 4, column = 0)
